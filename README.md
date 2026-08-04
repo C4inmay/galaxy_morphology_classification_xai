@@ -1,25 +1,76 @@
-# Galaxy Morphology Classification using Deep Learning and Explainable AI
+# Galaxy Morphology Classification using Deep Learning & Explainable AI (SHAP)
 
-A computer vision project that classifies galaxy images into morphological categories using deep learning and explains predictions with SHAP.
+## Overview
 
-## Features
+This project focuses on classifying galaxy morphologies using the Galaxy Zoo dataset from Kaggle. A deep learning model will be trained to identify different galaxy types, and SHAP (SHapley Additive exPlanations) will be used to explain the model's predictions.
 
-- Galaxy image classification
-- Transfer Learning with ResNet18
-- Data preprocessing and augmentation
-- SHAP explainability
-- Performance evaluation
-- Modular project structure
+## Objectives
 
-## Tech Stack
+- Explore and understand the Galaxy Zoo dataset.
+- Perform label engineering from the original probability-based annotations.
+- Train a deep learning image classification model.
+- Evaluate model performance.
+- Explain predictions using SHAP.
+- Maintain a clean and reproducible ML workflow.
+
+---
+
+## Dataset
+
+- **Source:** Kaggle – Galaxy Zoo: The Galaxy Challenge
+- **Images:** 61,578 training images
+- **Labels:** 37 probability-based morphology labels
+
+---
+
+## Project Structure
+
+```
+Galaxy Classification/
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── docs/
+├── notebooks/
+├── models/
+├── outputs/
+├── src/
+│
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
+
+---
+
+## Progress
+
+- [x] Project setup
+- [x] Dataset download
+- [x] Dataset exploration
+- [x] Label engineering
+- [ ] Image exploration
+- [ ] Data preprocessing
+- [ ] Model training
+- [ ] Model evaluation
+- [ ] SHAP Explainability
+
+---
+
+## Technologies
 
 - Python
-- PyTorch
-- OpenCV
-- SHAP
-- Scikit-learn
+- Pandas
+- NumPy
 - Matplotlib
+- PyTorch
+- SHAP
+- OpenCV
 
-## Project Status
+---
 
-🚧 Under Development
+## License
+
+This project is developed for learning and portfolio purposes.
