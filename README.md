@@ -51,12 +51,11 @@ Galaxy Classification/
 - [x] Dataset download
 - [x] Dataset exploration
 - [x] Label engineering
-- [ ] Image exploration
-- [ ] Data preprocessing
-- [ ] Model training
+- [x] Image exploration
+- [x] Data preparation
+- [ ] Model training (ResNet18)
 - [ ] Model evaluation
 - [ ] SHAP Explainability
-
 ---
 
 ## Technologies
