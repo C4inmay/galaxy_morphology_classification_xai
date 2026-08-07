@@ -58,6 +58,18 @@ Galaxy Classification/
 - [ ] SHAP Explainability
 ---
 
+## Current Status
+
+**Phase 1:** ✅ Data Collection & Understanding
+
+**Phase 2:** ✅ Data Preparation
+
+**Phase 3:** 🟡 Model Development (Next)
+
+**Phase 4:** ⏳ Explainable AI (SHAP)
+
+**Phase 5:** ⏳ Final Evaluation
+
 ## Technologies
 
 - Python
